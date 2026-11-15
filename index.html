@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="setupCard">
+
+    <div id="avatar">
+        👦
+    </div>
+
+    <h1 id="personName">
+         Member
+    </h1>
+
+    <button onclick="startTracking()">
+        📍 Start Tracking
+    </button>
+
+    <button onclick="changeProfile()">
+        ✏️ Change Profile
+    </button>
+
+</div>
+
+<div id="bubble">
+    <span id="bubbleAvatar">👦</span>
+    <span id="bubbleName">Member</span>
+</div>
+
+<iframe id="map"></iframe>
+
+<script src="tracker.js"></script>
+
+</body>
+
+</html>
